@@ -1,0 +1,68 @@
+<html>
+   <head>
+      <title>Alejandro Padron</title>
+      <link href="style.css" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <h1>Mi Perfil</h1>
+      </header>
+      <main>
+        <section class="about-me">
+            <section class="img-perfil">
+                
+                  <img src="./img/perfil.JPG" alt="Alejandro" />
+              
+            </section>
+            <section>
+              <h2 class="sub-titulo">Sobre Mi</h2>
+              <hr />
+              <p>
+                Mi nombre es <span>Jose Alejandro Padron Guzman</span>, tengo 24 años y tengo 7 años de experiencia laboral.
+                Particularmente soy una persona de calle, soy del tipo de persona que si no esta en la calle haciendo algo,
+                trabajando, haciendo diligencias o cualquier cosa siento que pierdio el tiempo. Me considero una persona muy trabajadora,
+                me esfuerzo por conseguir lo que quiero.
+              </p>
+            </section>     
+        </section>
+        <section>
+          <h2 class="sub-titulo">Experiencia</h2>
+          <hr />
+          <p>
+            Actualmente trabajo en una Empresa de Desarrollo de Software, Soporte Tecnico y 
+            Telecomunicaciones denominada TIDA. Donde desempeño el cargo de Supervisor de Soporte Tecnico y 
+            Telecomunicaciones, a su vez soy CEO de mi propia marca personal la cual se llama Enigma Studio, 
+            una empresa dedica a la gestión y desarrollo de redes sociales. Trabajando cada día en ser 
+            un mejor ser humano, yendo un paso a la vez hacia un mejor futuro para mi y quienes me rodean.
+         </p>
+        </section>
+        <section>
+            <h2 class="sub-titulo">Educación</h2>
+            <hr />
+            <p>
+                Me gradue en primaria en la Unidad Educativa La Asuncion, estudie Bachillerato en el Colegio Salesiano Pio XII, 
+                graduandome de bachiller mencion Procesamientos de Datos y Contabilidad, y actualmente curso el 6to Semestre
+                para obtener el titulo de TSU en Informatica en el Instituto IUTA.
+            </p>
+          </section>
+          <section>
+            <h2 class="sub-titulo">Contactar</h2>
+            <hr />
+          <form id="form">
+            <br><label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="correo">Correo:</label><br>
+            <input type="text" id="correo" name="correo"><br><br>
+            <textarea name="mensaje" rows="10" cols="30" id="mensaje">Describe tu Mensaje.</textarea>
+            <br><br>
+            <input type="submit" onclick = 'return enviarformulario()' value = 'enviar'>
+          </form>
+          <div id = 'error'></div>
+        </section>
+        <script src = 'app.js'></script>
+      </main>
+      <footer>
+        <p>Copyright Alejandro Padron</p>
+    </footer>
+   </body>
+   </html>
